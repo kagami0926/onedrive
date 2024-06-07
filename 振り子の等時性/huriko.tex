@@ -1,0 +1,81 @@
+\documentclass{jlreq}
+\usepackage{here}
+\usepackage{the}
+\begin{document}
+  \title{振り子の等時性について}
+  \date{2024/6/5}
+  \author{加賀美 渉太}
+  \maketitle
+
+  \tableofcontents
+
+  \section{目的}
+  振り子の等時性が成り立つ振れ角の範囲を実験で得られたデータを元に求める。さらに、振り子の振動周期を解析して重力加速度を求める。
+  
+  \section{原理}
+  図のように糸の先端におもりを付けた振り子の運動を考える。糸の長さを$l$、おもりの質量を$m$、張力を$S$、重力加速度を$g$、振り子の中心から鉛直におろした鉛直線と糸となす角を反時計回りを生にとって$\theta$、振り子の中心からおもりの重心までの長さを$l$とおく。また、$x$を時刻$t$で微分したものすなわち$\frac{dx}{dt}$を$\dot{x}$、2階微分を$\ddot{x}$とする。振り子の中心を座標の原点とおいて、おもりの極座標$(r,\theta)$をとると、方位角方向の運動方程式は\[m(r\ddot{\theta}+2\dot{r}\dot{\theta})=-mg\sin \theta \\\]
+  ここで、$r=l$で一定だから$\dot{r}=0$であり、左辺を計算して整理すると
+  \[\ddot{\theta}=-\frac{g}{l}\sin \theta \\\]
+  両辺に$\dot{\theta}$をかけて両辺$t$で積分すると、
+  \[\int \dot{\theta}\ddot{\theta}dt=\int -\dot{\theta}\frac{g}{l}\sin \theta dt\]
+  \[\frac{(\dot{\theta})^2}{2}=\frac{g}{l}(\cos \theta + C)\]
+  ($C$は積分定数とする)ここで、振り子の最大振れ角を$\theta_0$、$\omega=\sqrt{\frac{g}{l}}$
+  とおく、定義より$\theta=\theta_0$のとき$\dot{\theta}=0$であるから上の式に$\theta=\theta_0$
+  を代入すると、
+  \[C=-\cos \theta_0\]
+  と求まるからこれを元の式に代入すると、
+  \[\dot{\theta}^2=2\omega^2(\cos \theta \\ - \cos \theta_o)\]
+  この式に半角の公式を用いると、
+  \[\dot{\theta}=\pm2\omega\sqrt{\sin^2 \frac{\theta_0}{2} \\- \sin^2 \frac{\theta}{2}}\]
+  \[dt=\frac{d\theta}{\pm2\omega\sqrt{\sin^2 \frac{\theta_0}{2} \\-\sin^2 \frac{\theta}{2}}}\]
+  ここで$t=0$のときおもりが$\theta=0$を通過し、$t=t_0$でおもりの最高点を通過したとする。さらに上の式を時刻$t=0$から$t=t_0$まで$t$で積分すると
+  \[\int_{0}^{t_0}dt=\int_{0}^{t_0}\frac{d\theta}{2\omega\sqrt{\sin^2 \frac{\theta_0}{2} \\-\sin^2 \frac{\theta}{2}}}\]
+  \[t_0=\frac{\pi}{2\omega}\Big\{1+\frac{1}{4}\sin^2 \frac{\theta_0}{2}+\cdots\Big\}\]
+  振り子の振動周期を$T(=4t_0)$とおくと、
+  \[T=\frac{2\pi}{\omega}\Big\{1+\frac{1}{4}\sin^2 \frac{\theta_0}{2}+\cdots\Big\}\]
+  したがって周期$T$は最大振れ角$\theta_0$に依存する。
+  振れ角が非常に小さく$\sin \theta  \simeq \theta$と近似できるとき
+  \[T=2\pi\sqrt{\frac{l}{g}}\]
+  とかけるため周期が振れ角$\theta$に依存しない。
+  振れ角が比較的小さく$\sin \frac{\theta_0}{2}  \simeq \frac{\theta_0}{2}$と近似できるとき
+  \[T=2\pi\sqrt{\frac{l}{g}}\Big\{1+\Big(\frac{1}{16}\Big)\theta_0^2\Big\}\]
+  となり、振り子の等時性は成り立たなくなる。以上のことから、振り子の等時性という性質は振れ角$\theta$が小さい範囲でのみ近似できることがわかる。今回の実験では、測定値を用いて振り子の等時性が成り立つ$\theta$の範囲を決定する。
+  
+  \section{実験方法}
+  \subsection{周期の振れ角依存}
+  \begin{enumerate}
+    \item 図のように実験道具を配置し、振れ角を$2^\circ、6^\circ、10^\circ、20^\circ、30^\circ、40^\circ$とする。また、それぞれの振れ角に対して5往復する時間を測定しその値を5で割ることで振り子の周期を測定する。
+    \item 1つの振れ角に対して周期の測定を7回行い、最大値と最小値を除いた5回の平均値から周期を求める。ここで、設定角$\pm2^\circ$は測定誤差とみなして実験を行う。
+  \end{enumerate}
+
+  \subsection{振り子の長さと周期}
+  \begin{enumerate}
+    \item 図のように実験道具を設置し、振れ角を$3^\circ$にして$l$を$0.5m、0.6m、0.7m、0.8m、0.9m、1.0m$と変えて振り子の周期を測定する。
+    \item 周期は10往復を2回測定し、その平均値から周期を求める。
+  \end{enumerate}
+  
+  \section{結果}
+  \subsection{周期の振れ角依存}
+  \subsection{振り子の長さと周期}
+  \begin{table}[]
+    \centering
+    \caption{振り子の糸の長さとそれに対応する周期の値}
+    \label{tab:my-table}
+    \begin{tabular}{|lll|lll|}
+    \hline
+    \multicolumn{3}{|c|}{1回目} & \multicolumn{3}{c|}{2回目} \\ \hline
+    \multicolumn{1}{|l|}{糸の長さ} & \multicolumn{1}{l|}{10往復} & 周期 & \multicolumn{1}{l|}{糸の長さ} & \multicolumn{1}{l|}{10往復} & 周期 \\ \hline
+    \multicolumn{1}{|l|}{0.5} & \multicolumn{1}{l|}{14.306} & 1.4306 & \multicolumn{1}{l|}{0.5} & \multicolumn{1}{l|}{14.31} & 1.431 \\ \hline
+    \multicolumn{1}{|l|}{0.6} & \multicolumn{1}{l|}{15.524} & 1.5524 & \multicolumn{1}{l|}{0.6} & \multicolumn{1}{l|}{15.491} & 1.5491 \\ \hline
+    \multicolumn{1}{|l|}{0.7} & \multicolumn{1}{l|}{16.624} & 1.6624 & \multicolumn{1}{l|}{0.7} & \multicolumn{1}{l|}{16.665} & 1.6665 \\ \hline
+    \multicolumn{1}{|l|}{0.8} & \multicolumn{1}{l|}{17.847} & 1.7847 & \multicolumn{1}{l|}{0.8} & \multicolumn{1}{l|}{17.886} & 1.7886 \\ \hline
+    \multicolumn{1}{|l|}{0.9} & \multicolumn{1}{l|}{18.841} & 1.8841 & \multicolumn{1}{l|}{0.9} & \multicolumn{1}{l|}{18.868} & 1.8868 \\ \hline
+    \multicolumn{1}{|l|}{1} & \multicolumn{1}{l|}{19.567} & 1.9567 & \multicolumn{1}{l|}{1} & \multicolumn{1}{l|}{19.908} & 1.9908 \\ \hline
+    \end{tabular}
+    \end{table}
+  \section{考察}
+  \subsection{周期の振れ角依存}
+  \subsection{振り子の長さと周期}
+
+
+\end{document}

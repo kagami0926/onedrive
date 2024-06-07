@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="実験図1.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     showguides="false"
+     inkscape:zoom="1.0242632"
+     inkscape:cx="333.89855"
+     inkscape:cy="380.27334"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g56" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g56">
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;white-space:pre;inline-size:25;display:inline;fill:none;stroke-width:0.264583"
+         x="130"
+         y="40"
+         id="text48"
+         transform="matrix(2.1804319,0,0,2.0736,-156.92329,-37.620479)"><tspan
+           x="130"
+           y="40"
+           id="tspan1">台車</tspan></text>
+      <g
+         id="g47"
+         transform="translate(5.7499996,-99.999997)">
+        <g
+           id="g55">
+          <rect
+             style="fill:none;stroke-width:0.320538"
+             id="rect38"
+             width="95.000008"
+             height="179.60031"
+             x="96.884163"
+             y="114.52771"
+             transform="matrix(1,0,-0.27839655,0.96046622,0,0)" />
+          <use
+             x="0"
+             y="0"
+             xlink:href="#rect38"
+             id="use38"
+             transform="matrix(0.3,0,0,0.3,76.249988,81.999998)" />
+          <path
+             style="fill:none;stroke-width:0.264583"
+             d="M 94.99997,166.75001 60.000001,274.99998"
+             id="path38" />
+          <ellipse
+             style="fill:none;stroke-width:0.264583"
+             id="path43"
+             cx="57.500004"
+             cy="282.5"
+             rx="2.5"
+             ry="12.5" />
+          <ellipse
+             style="fill:none;stroke-width:0.264583"
+             id="path44"
+             cx="62.5"
+             cy="282.5"
+             rx="2.5"
+             ry="12.5" />
+          <path
+             style="fill:none;stroke-width:0.264583"
+             d="m 57.500003,269.99999 h 4.999996 v 0"
+             id="path45" />
+          <path
+             style="fill:none;stroke-width:0.264583"
+             d="m 57.500003,294.99999 h 4.999996"
+             id="path46" />
+          <path
+             style="fill:none;stroke-width:0.264583"
+             d="m 60.000001,274.99998 v 45.00001"
+             id="path47" />
+          <rect
+             style="fill:none;stroke-width:0.264583"
+             id="rect47"
+             width="10"
+             height="9.999999"
+             x="55"
+             y="319.99997" />
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:6.58368px;fill:none;stroke-width:0.54864"
+         x="77.192688"
+         y="190.32352"
+         id="text50"><tspan
+           sodipodi:role="line"
+           id="tspan50"
+           style="stroke-width:0.54864"
+           x="77.192688"
+           y="190.32352">滑車</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.54864"
+           x="77.192688"
+           y="198.55312"
+           id="tspan51" /></text>
+      <path
+         style="fill:none;stroke-width:0.264583"
+         d="M 85.000001,164.99999 H 105 v -40 H 85.000001 V 135 H 100 v 19.99999 H 85.000001 v 10 0"
+         id="path51" />
+      <path
+         style="fill:none;stroke-width:0.264583"
+         d="m 85.000001,124.99999 5,-5 H 110 l -5,5 v 40 l 5,-5 v -40 0"
+         id="path52" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.4864px;fill:none;stroke-width:0.4572"
+         x="113.86227"
+         y="139.47913"
+         id="text53"><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.4572"
+           x="113.86227"
+           y="139.47913"
+           id="tspan54">速度計１</tspan></text>
+      <path
+         style="fill:none;stroke-width:0.264583"
+         d="m 85.000001,154.99999 5,-5 H 100 v 0"
+         id="path53" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.58368px;fill:none;stroke-width:0.54864"
+         x="76.816444"
+         y="225.34923"
+         id="text55"><tspan
+           sodipodi:role="line"
+           id="tspan55"
+           style="stroke-width:0.54864"
+           x="76.816444"
+           y="225.34923">おもり</tspan></text>
+    </g>
+  </g>
+</svg>
